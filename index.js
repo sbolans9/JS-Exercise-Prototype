@@ -99,10 +99,10 @@ function Baby(name, age, favoriteToy) {
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Global Object Binding - whenever called in the global scope it will the the entire Window/console obj
+  2. Implicit Binding - "this" means the obj that is preceding the dot
+  3. New Binding - This is used whenever a constructor function is used, "this" refers to when the instance when the constructor function is returned.
+  4. Explicit Binding - This is when the apply or call method is used, "this" become defined
 */
 
 
